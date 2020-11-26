@@ -5,12 +5,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LogoComponent } from './logo/logo.component';
+import { ComponentTicketComponent } from './component-ticket/component-ticket.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LogoComponent
+    LogoComponent,
+    ComponentTicketComponent
   ],
   imports: [
     BrowserModule,
